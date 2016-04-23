@@ -1,0 +1,95 @@
+@media only screen and (max-width: 500px) {
+    div.kopje {
+        font-size: 50px;
+    }
+
+    div.stukje {
+        font-size: 2em;
+    }
+
+    span.date {
+        display: block;
+    }
+
+    span.date {
+        font-style: italic;
+    }
+
+    span.separator {
+        display: none
+    }
+
+    div.showline {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 501px) {
+    div.kopje {
+        font-size: 22px;
+    }
+
+    span.fblink {
+        position: relative;
+        top: 4px;
+    }
+
+    div#content {
+        position:relative;
+        left: calc((100% - 660px)/3);
+    }
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div#content {
+    width: 660px;
+}
+
+div.kopje {
+    font-family: Monofett;
+}
+
+div#malibutop {
+    position: relative;
+    padding: 30px;
+}
+
+div.stukje {
+    max-width: 660px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+div.paragraaf {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: blue;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    border: 0;
+}
+
+a > img{
+    border: 0;
+}
+

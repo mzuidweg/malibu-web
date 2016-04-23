@@ -1,0 +1,47 @@
+#######################################################################
+#     Diese .htaccess wurde vom STRATO-Webservermanager erstellt      #
+#######################################################################
+
+
+
+
+AuthUserFile /mnt/rid/25/15/57052515/htdocs/.htuser
+
+
+
+AuthName "beschermde omgeving"
+AuthType Basic
+
+ 
+require user dikkeadmin 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
