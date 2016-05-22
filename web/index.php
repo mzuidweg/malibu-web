@@ -66,7 +66,7 @@
     <div class="kopje">Boekingen / Contact</div>
     <div class="paragraaf">
       <a href="mailto:boekingen@malibumalibu.nl">boekingen@malibumalibu.nl</a><br/>
-      <a href="http://www.facebook.com/malibumuziek">facebook</a>
+      <a href="http://www.facebook.com/malibumuziek">facebook</a><br/>
       <a href="http://www.instagram.com/malibumalibumalibumalibu">instagram</a>
     </div>
   </div>
