@@ -10,7 +10,7 @@
 require('config.php');
 if (isset($_POST['submitted'])) {
   $sql = $link->prepare("INSERT INTO malibushows ( date , displayDate, shortname ,  url , fburl,  description  ) VALUES(?,?,?,?,?,?)");
-  $sql->bind_param("sssss", $_POST['date'], $_POST['shortname'], $_POST['url'], $_POST['fburl'], $_POST['description']);
+  $sql->bind_param("ssssss", $_POST['date'], $_POST['displayDate'], $_POST['shortname'], $_POST['url'], $_POST['fburl'], $_POST['description']);
   $sql->execute() or die($sql->error);
   $sql->close();
   $link->close();
