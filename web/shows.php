@@ -37,12 +37,14 @@ function dummyShows()
   return array(
       array(
           "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
+          "displayDate" => null,
           "url" => "http://www.malibumalibu.nl",
           "shortname" => "dit is een testshow",
           "fburl" => ''
       ),
       array(
           "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
+          "displayDate" => '',
           "url" => '',
           "shortname" => "een testshow zonder link",
           "fburl" => "http://facebook.com/malibumuziek"

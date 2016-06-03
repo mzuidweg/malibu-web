@@ -55,13 +55,22 @@
   </div>
 
   <div class="stukje">
+      <div class="kopje">Media</div>
+      <div class="paragraaf">
+        <i>"Heerlijk plaatje!"</i> - <a href="img/OOR.jpg">OOR</a><br/>
+        <i>"Geestig, tegendraads en - vooral - zonnig."</i> - <a target="_blank" href="http://www.kindamuzik.net/recensie/malibu/malibu/26714/">Kindamuzik</a><br/>
+        <i>"Vol ogenschijnlijke  desinteresse, maar op het podium juist met bakken vol energie"</i> - <a target="_blank" href="http://3voor12.vpro.nl/lokaal/tilburg/nieuws/2016/juni/Album-presentatie-Malibu.html">VPRO 3voor12</a><br/>
+      </div>
+    </div>
+
+  <div class="stukje">
     <div class="kopje">Audio/Video</div>
     <div class="paragraaf">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/09G6-wUu3cM"
               allowfullscreen></iframe>
     </div>
     <div class="paragraaf">
-      <iframe style="border: 0; width: 400px; height: 250px;" src="https://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
+      <iframe style="border: 0; width: 560px; height: 230px;" src="http://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
     </div>
   </div>
 
