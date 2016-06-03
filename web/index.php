@@ -32,7 +32,11 @@
       <?php require 'shows.php' ?>
       <?php foreach (getShows() as $showLine) { ?>
     <div class="showline">
-      <span class="date"><?= $showLine["date"] ?></span>
+      <?php if ($showLine['displayDate'] && $showLine['displayDate'] != '') { ?>
+        <span class="date"><?= $showLine["displayDate"] ?></span>
+      <?php } else { ?>
+        <span class="date"><?= $showLine["date"] ?></span>
+      <?php } ?>
       <span class="separator">-</span>
       <span class="showname">
       <?php if ($showLine['url'] && $showLine['url'] != '') { ?>
@@ -57,8 +61,7 @@
               allowfullscreen></iframe>
     </div>
     <div class="paragraaf">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lEgFZ31gJQA"
-              allowfullscreen=""></iframe>
+      <iframe style="border: 0; width: 400px; height: 250px;" src="https://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
     </div>
   </div>
 

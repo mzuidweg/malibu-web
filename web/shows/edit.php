@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     foreach ($_POST AS $key => $value) {
       $_POST[$key] = $link->escape_string($value);
     }
-    $sql = "UPDATE `malibushows` SET  `date` =  '{$_POST['date']}' ,  `shortname` =  '{$_POST['shortname']}' ,  `url` =  '{$_POST['url']}' ,`fburl` =  '{$_POST['fburl']}' ,  `description` =  '{$_POST['description']}'   WHERE `id` = '$id' ";
+    $sql = "UPDATE `malibushows` SET  `date` =  '{$_POST['date']}' , `displayDate` =  '{$_POST['displayDate']}' ,  `shortname` =  '{$_POST['shortname']}' ,  `url` =  '{$_POST['url']}' ,`fburl` =  '{$_POST['fburl']}' ,  `description` =  '{$_POST['description']}'   WHERE `id` = '$id' ";
     $link->query($sql) or die($link->error);
     echo ($link->affected_rows) ? "De wijziging is opgeslagen.<br />" : "Er is niets veranderd. <br />";
     $link -> close();
@@ -23,8 +23,10 @@ if (isset($_GET['id'])) {
     ?>
 
     <form action='' method='POST'>
-      <p><span class="kopje">Datum (jjjj-mm-dd):</span><br/><input id="date" type="date" name="date"
+      <p><span class="kopje">Datum voor sortering (jjjj-mm-dd):</span><br/><input id="date" type="date" name="date"
                                                                    value="<?= stripslashes($row['date']) ?>"/></p>
+      <p><span class="kopje">Datum voor weergave (optioneel):</span><br/><input type='text' name='displayDate'
+                                                     value='<?= stripslashes($row['displayDate']) ?>'/></p>
       <p><span class="kopje">Naam:</span><br/><input type='text' name='shortname'
                                                      value='<?= stripslashes($row['shortname']) ?>'/></p>
       <p><span class="kopje">Link:</span><br/><input type='text' name='url' value='<?= stripslashes($row['url']) ?>'/>

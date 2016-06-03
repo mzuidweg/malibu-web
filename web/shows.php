@@ -17,6 +17,7 @@ function getShows()
   while ($row = mysqli_fetch_array($result)) {
     $show = array(
         "date" => strftime("%a %e %B", strtotime($row['date'])),
+        "displayDate" => $row['displayDate'],
         "url" => $row['url'],
         "shortname" => $row['shortname'],
         "fburl" => $row['fburl']
@@ -48,6 +49,7 @@ function dummyShows()
       ),
       array(
           "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
+          "displayDate" => "22/23 juli",
           "url" => "http://www.malibumalibu.nl",
           "shortname" => "dit is nog een testshow",
           "fburl" => "http://facebook.com/malibumuziek"

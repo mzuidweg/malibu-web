@@ -9,7 +9,7 @@
 <?
 require('config.php');
 if (isset($_POST['submitted'])) {
-  $sql = $link->prepare("INSERT INTO malibushows ( date ,  shortname ,  url , fburl,  description  ) VALUES(?,?,?,?,?)");
+  $sql = $link->prepare("INSERT INTO malibushows ( date , displayDate, shortname ,  url , fburl,  description  ) VALUES(?,?,?,?,?,?)");
   $sql->bind_param("sssss", $_POST['date'], $_POST['shortname'], $_POST['url'], $_POST['fburl'], $_POST['description']);
   $sql->execute() or die($sql->error);
   $sql->close();
@@ -20,7 +20,8 @@ if (isset($_POST['submitted'])) {
 ?>
 
 <form action='' method='POST'>
-  <p><span class="kopje">Datum (jjjj-mm-dd):</span><br/><input type="date" name="date"/></p>
+  <p><span class="kopje">Datum voor sortering (jjjj-mm-dd):</span><br/><input type="date" name="date"/></p>
+  <p><span class="kopje">Datum voor weergave (optioneel):</span><br/><input type="text" name="displayDate"/></p>
   <p><span class="kopje">Naam:</span><br/><input type="text" name="shortname"/></p>
   <p><span class="kopje">Link:</span><br/><input type="text" name="url"/></p>
   <p><span class="kopje">Link naar FB event:</span><br/><input type="text" name="fburl"/></p>
