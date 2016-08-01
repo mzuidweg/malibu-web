@@ -13,14 +13,19 @@ function getShows()
 
   $shows = array();
 
-  $result = $link->query("SELECT * FROM `malibushows` WHERE date >= DATE_SUB(NOW(), INTERVAL 10 DAY) ORDER BY date ASC");
+  $result = $link->query("SELECT `malibushows`.*,
+    CASE WHEN date < DATE_SUB(NOW(), INTERVAL 1 DAY) THEN 'T' ELSE 'F' END AS passed
+    FROM `malibushows` WHERE date >= DATE_SUB(NOW(), INTERVAL 90 DAY) 
+    ORDER BY
+     date ASC");
   while ($row = mysqli_fetch_array($result)) {
     $show = array(
         "date" => strftime("%a %e %B", strtotime($row['date'])),
         "displayDate" => $row['displayDate'],
         "url" => $row['url'],
         "shortname" => $row['shortname'],
-        "fburl" => $row['fburl']
+        "fburl" => $row['fburl'],
+        "passed" => $row['passed']
     );
 
     $shows[] = $show;

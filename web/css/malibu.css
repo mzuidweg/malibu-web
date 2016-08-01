@@ -93,3 +93,9 @@ a > img{
     border: 0;
 }
 
+.passedShow {
+    text-decoration: line-through;
+    color: dimgray;
+    font-style: italic;
+}
+

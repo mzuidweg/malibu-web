@@ -31,7 +31,7 @@
     <div class="paragraaf">
       <?php require 'shows.php' ?>
       <?php foreach (getShows() as $showLine) { ?>
-    <div class="showline">
+    <div class="showline <?= $showLine['passed'] == 'T' ? 'passedShow' : '' ?>">
       <?php if ($showLine['displayDate'] && $showLine['displayDate'] != '') { ?>
         <span class="date"><?= $showLine["displayDate"] ?></span>
       <?php } else { ?>
@@ -39,13 +39,13 @@
       <?php } ?>
       <span class="separator">-</span>
       <span class="showname">
-      <?php if ($showLine['url'] && $showLine['url'] != '') { ?>
+      <?php if ($showLine['passed'] != 'T' && $showLine['url'] && $showLine['url'] != '') { ?>
         <a target="_blank" href="<?= $showLine['url'] ?>"><?= $showLine['shortname'] ?></a>
       <?php } else { ?>
         <?= $showLine['shortname'] ?>
       <?php } ?>
       </span>
-      <?php if ($showLine['fburl'] && $showLine['fburl'] != '') { ?>
+      <?php if ($showLine['passed'] != 'T' && $showLine['fburl'] && $showLine['fburl'] != '') { ?>
         <span class="fblink"><a target="_blank" href="<?= $showLine['fburl'] ?>"><img src="img/fb.png" alt="facebook event"/></a></span>
       <?php } ?>
       <br/>
