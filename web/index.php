@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width"/>
   <title>Malibu</title>
   <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet" type="text/css"/>
-  <link href="css/malibu.css" rel="stylesheet" type="text/css"/>
+  <link href="css/malibu.css?version=2" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="fb-root"></div>
