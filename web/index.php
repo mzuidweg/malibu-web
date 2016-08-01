@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <? date_default_timezone_set("UTC"); ?>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width"/>
