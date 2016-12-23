@@ -45,21 +45,24 @@ function dummyShows()
           "displayDate" => null,
           "url" => "http://www.malibumalibu.nl",
           "shortname" => "dit is een testshow",
-          "fburl" => ''
+          "fburl" => '',
+          "passed" => "T"
       ),
       array(
           "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
           "displayDate" => '',
           "url" => '',
           "shortname" => "een testshow zonder link",
-          "fburl" => "http://facebook.com/malibumuziek"
+          "fburl" => "http://facebook.com/malibumuziek",
+                    "passed" => "F"
       ),
       array(
           "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
           "displayDate" => "22/23 juli",
           "url" => "http://www.malibumalibu.nl",
           "shortname" => "dit is nog een testshow",
-          "fburl" => "http://facebook.com/malibumuziek"
+          "fburl" => "http://facebook.com/malibumuziek",
+                    "passed" => "F"
       )
   );
 }

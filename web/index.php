@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width"/>
   <title>Malibu</title>
   <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet" type="text/css"/>
-  <link href="css/malibu.css?version=2" rel="stylesheet" type="text/css"/>
+  <link href="css/malibu.css?version=3" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<script>
+  function expand(extra, knop) {
+    document.getElementById(extra).className = "";
+    document.getElementById(knop).className = "verborgen";
+  }
+</script>
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -57,16 +63,25 @@
   <div class="stukje">
       <div class="kopje">Media</div>
       <div class="paragraaf">
-        <i>"Heerlijk plaatje!"</i> - <a href="img/OOR.jpg">OOR</a><br/>
-        <i>"Geestig, tegendraads en - vooral - zonnig."</i> - <a target="_blank" href="http://www.kindamuzik.net/recensie/malibu/malibu/26714/">Kindamuzik</a><br/>
-        <i>"Vol ogenschijnlijke  desinteresse, maar op het podium juist met bakken vol energie"</i> - <a target="_blank" href="http://3voor12.vpro.nl/lokaal/tilburg/nieuws/2016/juni/Album-presentatie-Malibu.html">VPRO 3voor12</a><br/>
+        <i>"<span id="recensieoorfull" class="verborgen">Malibu is weer zo'n ongeslepen parel uit Tilburg en Utrecht.
+          De muziek kun je vergelijken met die van Jonathan Richman en Stuurbaard Bakkebaard,
+          maar ook Mozes &amp; The Firstborn, want opener en single Venice Beach (spoor die knullige clip op!)
+          zou op Lowlands net zo'n meezinger verdienen te worden als Mozes' I Got Skills.
+          Malibu doet het dus in het Nederlands. Zanger/rapper Twan van Bragt schudt de ene na de andere leuke tekst
+          uit zijn mouw, maar
+          </span><span id="knopjerecensieoor"><a href="#" onclick="expand('recensieoorfull', 'knopjerecensieoor');">(...)</a> </span>
+          ook als je uitgeglimlacht bent, rest er een geweldig charmant rammelend bandje om
+          op te dansen. (...) Heerlijk plaatje!"
+        </i> - <a href="img/OOR.jpg">Recensie OOR</a><br/>
+        <i>"Geestig, tegendraads en - vooral - zonnig."</i> - <a target="_blank" href="http://www.kindamuzik.net/recensie/malibu/malibu/26714/">Recensie Kindamuzik</a><br/>
+        <i>"Vol ogenschijnlijke  desinteresse, maar op het podium juist met bakken vol energie"</i> - <a target="_blank" href="http://3voor12.vpro.nl/lokaal/tilburg/nieuws/2016/juni/Album-presentatie-Malibu.html">Live-verslag VPRO 3voor12</a><br/>
       </div>
     </div>
 
   <div class="stukje">
     <div class="kopje">Audio/Video</div>
     <div class="paragraaf">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/LvX8ITCfVOs"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1deseJscSzY"
               allowfullscreen></iframe>
     </div>
     <div class="paragraaf">
@@ -74,7 +89,7 @@
               allowfullscreen></iframe>
     </div>
     <div class="paragraaf">
-      <iframe style="border: 0; width: 560px; height: 230px;" src="http://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
+      <iframe style="border: 0; width: 560px; height: 257px;" src="http://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
     </div>
   </div>
 

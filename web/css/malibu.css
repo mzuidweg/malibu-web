@@ -98,4 +98,6 @@ a > img{
     color: dimgray;
     font-style: italic;
 }
-
+.verborgen {
+    display: none;
+}
