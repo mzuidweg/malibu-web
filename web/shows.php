@@ -49,7 +49,7 @@ function dummyShows()
           "passed" => "T"
       ),
       array(
-          "date" => strftime("%a %e %B", strtotime("1900-01-01 00:00:00")),
+          "date" => strftime("%a %e %B", strtotime("2017-02-03 00:00:00")),
           "displayDate" => '',
           "url" => '',
           "shortname" => "een testshow zonder link",

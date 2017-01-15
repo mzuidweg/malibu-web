@@ -37,6 +37,14 @@
     <div class="paragraaf">
       <?php require 'shows.php' ?>
       <?php foreach (getShows() as $showLine) { ?>
+
+     <?php /*****TEMP GHETTOBLASTERTOUR MARKER START ******/ ?>
+
+        <?php if (strpos($showLine["date"], " 3 februari") !== false) {?>
+            <div style="padding-top: 10px;font-style: italic; color: darkgray">--//-- GHETTOBLASTERTOUR --//--</div>
+        <?php } ?>
+     <?php /*****TEMP GHETTOBLASTERTOUR MARKER END ******/ ?>
+
     <div class="showline <?= $showLine['passed'] == 'T' ? 'passedShow' : '' ?>">
       <?php if ($showLine['displayDate'] && $showLine['displayDate'] != '') { ?>
         <span class="date"><?= $showLine["displayDate"] ?></span>
@@ -57,6 +65,9 @@
       <br/>
     </div>
     <?php } ?>
+      <?php /*****TEMP GHETTOBLASTERTOUR MARKER START ******/ ?>
+                  <div style="padding-bottom: 10px;font-style: italic; color: darkgray">--//-- GHETTOBLASTERTOUR --//--</div>
+      <?php /*****TEMP GHETTOBLASTERTOUR MARKER END ******/ ?>
     </div>
   </div>
 
