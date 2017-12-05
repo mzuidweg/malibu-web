@@ -82,6 +82,10 @@
   <div class="stukje">
     <div class="kopje">Audio/Video</div>
     <div class="paragraaf">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sET3unBvgUc"
+              allowfullscreen></iframe>
+    </div>
+    <div class="paragraaf">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/1deseJscSzY"
               allowfullscreen></iframe>
     </div>
@@ -95,9 +99,10 @@
   </div>
 
   <div class="stukje">
-    <div class="kopje">Boekingen / Contact</div>
+    <div class="kopje">Contact</div>
     <div class="paragraaf">
-      <a href="mailto:info@malibumalibu.nl">info@malibumalibu.nl</a><br/>
+      Boekingen: <a href="mailto:bono@chunkywoo.nl">bono@chunkywoo.nl</a><br/>
+      Contact: <a href="mailto:info@malibumalibu.nl">info@malibumalibu.nl</a><br/>
       <a href="http://www.facebook.com/malibumuziek">facebook</a> //
       <a href="http://www.instagram.com/malibumalibumalibumalibu">instagram</a>
     </div>
