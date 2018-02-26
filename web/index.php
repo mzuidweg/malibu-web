@@ -101,7 +101,7 @@
   <div class="stukje">
     <div class="kopje">Contact</div>
     <div class="paragraaf">
-      Boekingen: <a href="mailto:bono@chunkywoo.nl">bono@chunkywoo.nl</a><br/>
+      Boekingen: <a href="mailto:bono@anthemagency.nl">bono@anthemagency.nl</a><br/>
       Contact: <a href="mailto:info@malibumalibu.nl">info@malibumalibu.nl</a><br/>
       <a href="http://www.facebook.com/malibumuziek">facebook</a> //
       <a href="http://www.instagram.com/malibumalibumalibumalibu">instagram</a>
