@@ -75,7 +75,7 @@
           op te dansen. (...) Heerlijk plaatje!"
         </i> - <a href="img/OOR.jpg">Recensie OOR</a><br/>
         <i>"Geestig, tegendraads en - vooral - zonnig."</i> - <a target="_blank" href="http://www.kindamuzik.net/recensie/malibu/malibu/26714/">Recensie Kindamuzik</a><br/>
-        <i>"Vol ogenschijnlijke  desinteresse, maar op het podium juist met bakken vol energie"</i> - <a target="_blank" href="http://3voor12.vpro.nl/lokaal/tilburg/nieuws/2016/juni/Album-presentatie-Malibu.html">Live-verslag VPRO 3voor12</a><br/>
+        <i>"Vol ogenschijnlijke  desinteresse, maar op het podium juist met bakken vol energie"</i> - <a target="_blank" href="https://3voor12.vpro.nl/lokaal/tilburg/nieuws/2016/juni/Album-presentatie-Malibu.html">Live-verslag VPRO 3voor12</a><br/>
       </div>
     </div>
 
@@ -98,7 +98,7 @@
               allowfullscreen></iframe>
     </div>
     <div class="paragraaf">
-      <iframe style="border: 0; width: 560px; height: 257px;" src="http://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
+      <iframe style="border: 0; width: 560px; height: 257px;" src="https://bandcamp.com/EmbeddedPlayer/album=2289377884/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://bastaardplaten.bandcamp.com/album/malibu">Malibu by Bastaard Platen</a></iframe>
     </div>
   </div>
 
@@ -106,8 +106,8 @@
     <div class="kopje">Boekingen / Contact</div>
     <div class="paragraaf">
       <a href="mailto:info@malibumalibu.nl">info@malibumalibu.nl</a><br/>
-      <a href="http://www.facebook.com/malibumuziek">facebook</a> //
-      <a href="http://www.instagram.com/malibumalibumalibumalibu">instagram</a>
+      <a href="https://www.facebook.com/malibumuziek">facebook</a> //
+      <a href="https://www.instagram.com/malibumalibumalibumalibu">instagram</a>
     </div>
   </div>
 
@@ -123,11 +123,11 @@
   <div class="stukje">
     <div class="kopje">Perskit</div>
     <div class="paragraaf">
-      <a href="download/malibukit.zip">Download</a> onze bio, foto (door <a href="http://www.fotographik.nl" target="_blank">fotographik</a>)
+      <a href="download/malibukit.zip">Download</a> onze bio, foto (door <a href="https://www.graphik.nl" target="_blank">Teis Albers</a>)
       en rider.
     </div>
     <div class="paragraaf">
-      Logo door <a href="http://www.woodyveneman.nl" target="_blank">Woody Veneman</a>.
+      Logo door <a href="https://www.woodyveneman.nl" target="_blank">Woody Veneman</a>.
     </div>
   </div>
   <div class="stukje">
