@@ -127,7 +127,7 @@
       en rider.
     </div>
     <div class="paragraaf">
-      Logo door <a href="https://www.woodyveneman.nl" target="_blank">Woody Veneman</a>.
+      Logo door <a href="http://www.woodyveneman.nl" target="_blank">Woody Veneman</a>.
     </div>
   </div>
   <div class="stukje">
